@@ -1,0 +1,89 @@
+<!DOCTYPE html:7>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mario/style.css">
+    <title>Mario Bros</title>
+</head>
+
+<body>
+    <div class="mascara-formulario">
+    </div>
+    <div class="header">
+        <img src="./mario/mario home.png" alt="Logo Mario" class="inicio">
+        <a>Home</a>
+        <a>Fale Conosco</a>
+        <a>Nossos Serviços</a>
+
+
+    </div>
+
+    <div class="caixa-video">
+        <video src="./img/video.mp4" autoplay muted loop></video>
+        <div class="mascara"></div>
+    </div>
+    <a href="https://wa.me/5512954564128" target="_blank" class="link-whatsapp">
+        <img src="./img/whatsaap.png" alt="Whatsapp">
+
+    </a>
+
+
+    <div class="caixa-mae">
+        <div class="caixa-principal">
+            <img src="./img/logo.png" alt="Logo Mario Bros" class="Logo">
+
+            <h1>Mario Bros</h1>
+            <p> Encanadores Mario e Luigi - Resolvemos seus problemas com estilo</p>
+            <p> Você já se encontrou em uma situação de emergência com encanamento? Vazamentos
+                não se preocupe! Mario e Luigi estão aqui para ajudar. Com anos de experiência em encanamento, nossa
+                equipe
+                de
+                encanadores é rápida, confiável e sempre pronta para resolver qualquer problema que você tenha. De
+                vazamentos a
+                entupimentos, nós temos a solução perfeita para você. Entre em contato conosco hoje mesmo e deixe-nos
+                cuidar
+                do seu
+                encanamento!</p>
+
+            <p><strong>Entre em contato conosco para agendar uma visita ou solicitar um orçamento. Estamos aqui para
+                    ajudar!</strong></p><br>
+            <p> Melhores encanadores do Reino dos Cogumelos!</p><br>
+
+
+            <button id="btn-contato">Entre em contato </button>
+            <div class="mascara-formulario" id="mascara-formulario"> </div> 
+            <form
+                 class="formulario" id="form-contato"
+                 action="https://formcarry.com/s/jJ0xbXA-6FP"
+                 method="POST"
+                 enctype="multipart/form-data">
+        <input type="text" placeholder="Nome" type="text" name="nome">  
+        <input type="text" placeholder="Telefone" type="tel" name="telefone">
+        <textarea type="text" placeholder="Digite aqui o seu problema" name="Duvidas"></textarea>
+        <button type="submit">Faça seu Orçamento</button> 
+    </form>
+        </div>
+
+        <div>
+            <img src="./img/mario.png" alt="Mario" class="Mario">
+        </div>
+
+
+    </div>
+    <div>
+   
+   </div>
+<script>
+document.getElementById('btn-contato').onclick = function() {
+    document.getElementById('form-contato').style.display = 'flex';
+};
+    
+
+</script>
+
+
+</body>
+
+</html>
