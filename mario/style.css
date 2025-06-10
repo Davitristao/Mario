@@ -231,8 +231,9 @@ input{
 
     .formulario {
         width: 90vw;
-        left: 5%;
+        left: 50%;
         top: 10%;
+        transform: translateX(-50%);
     }
     textarea, input {
         font-size: 18px;
