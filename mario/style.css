@@ -187,6 +187,9 @@ input{
 }
 @media screen and (max-width: 780px)
  {
+    body{
+        font-size: 14px;
+    }
     p{
         display: none;
     }
@@ -196,9 +199,11 @@ input{
         
     }
     .caixa-principal {
-        width: 100%;
-        padding: 10px;
+        width: 98vw;
+        padding: 8px;
         align-items: center;
+        max-width: 100%;
+        font-size: 14px;
     }
     .Logo {
         height: 150px;
@@ -211,7 +216,8 @@ input{
         font-size: 16px;
         align-items: center;
         justify-content: center;
-
+        margin: 10px 0;
+        gap: 8px;   
     }
     .header img {
         display: none;
@@ -222,4 +228,13 @@ input{
         font-size: 16px;
     }
     
+
+    .formulario {
+        width: 90vw;
+        left: 5%;
+        top: 10%;
+    }
+    textarea, input {
+        font-size: 18px;
+    }
 }
